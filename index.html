@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+        <h2>Random Soda</h2>
+        <span>$ 5,00</span>
+        <button><i class="fas fa-plus"></i>ADD TO CART</button>
+    </div>
+    <div class="wrapper purple">
+        <h2>Random Soda</h2>
+        <span>$ 5,00</span>
+        <button><i class="fas fa-plus"></i>ADD TO CART</button>
+    </div>
+    <div class="wrapper">
+        <h2>Random Soda</h2>
+        <span>$ 5,00</span>
+        <button><i class="fas fa-plus"></i>ADD TO CART</button>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".wrapper")
+        , {
+		max: 25,
+		speed: 400
+	});
+    </script>
 </body>
 </html>
