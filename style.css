@@ -55,6 +55,7 @@ body::after{
     border-top:1px solid rgba(255,255,255,0.5);
     border-left:1px solid rgba(255,255,255,0.5);
     z-index:1;
+    cursor: pointer;
 }
 
 
@@ -95,7 +96,7 @@ button{
     margin:1rem auto 0rem;
     font-weight: 800;
     border:none;
-  
+    cursor: pointer;
 }
 
 .purple button{
@@ -145,4 +146,29 @@ img{
 }
 .jacket-price{
     margin-top: -2.5rem;
+}
+
+.creditcards{
+    display: flex;
+    flex-direction: column;
+}
+
+.chip{
+    transform: rotate(-270deg);
+    width:3.0rem;
+    margin-left:-15rem;
+}
+.visa{
+    width:6rem;
+}
+
+.short{
+    height:15rem;
+    margin: 8rem 0;
+}
+.sign-field{
+    background-color:rgba(255,255,255,0.6); 
+    height:2.5rem;
+    margin-top:8rem;
+    width:100%;
 }
