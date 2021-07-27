@@ -42,7 +42,7 @@ body::after{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     width:25rem;
     height:30rem;
     border-radius:15px;
@@ -65,8 +65,6 @@ h2{
 span{
     font-size: 3rem;
     font-weight: 900;
-    color:#f36abf;
-    color:#fff;
     color:rgba(255,255,255,0.5)
 
 }
@@ -75,7 +73,6 @@ span{
 
 button{
     width:60%;
-    background-image: linear-gradient(255deg, #F72585 0% , #7209B7 48% , #3A0CA3 100%);
     background-image: linear-gradient(252deg, #007F5F 0% , #55A630 48% , #AACC00 100%);
     border-radius:20px;
     height:12%;
@@ -89,4 +86,31 @@ button{
 .purple button{
     background-image: linear-gradient(326deg, #240046 0% , #9D4EDD 48% , #C8B6FF 100%);
 }
+
+
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    opacity:0; 
+    transform:translateY(100px); 
+    transition:0.6s;
+}
+
+.content:hover{
+    transform: translateY(0px);
+    opacity: 1;
+}  
+
+.heart{
+    width:80%;
+    text-align: right;
+    margin-top:1rem;   
+    opacity: 0;
+}
+
+
 

@@ -505,4 +505,28 @@ const VanillaTilt = (function () {
     
     return VanillaTilt;
     
-    }());
+}());
+    
+//end hover card effects
+
+function changeColor() {
+  let heart = document.querySelector(".heart");
+  heart.style.color = "red"
+  console.log(heart);
+  let fadeEffect = setInterval(function () {
+      if(!heart.style.opacity) {
+        heart.style.opacity = 1;
+
+    }if (heart.style.opacity > 0) {
+        heart.style.opacity -=0.1
+    }else{ 
+      clearInterval(fadeEffect)
+      }
+  }, 200);
+}
+
+
+let button = document.querySelector('button').addEventListener('click', changeColor)
+
+
+
