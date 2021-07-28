@@ -511,7 +511,7 @@ const VanillaTilt = (function () {
 
 ////////////////////start heart animation////////////////////
 let fadeEffect
-  let heart = document.querySelector(".heart");
+let heart = document.querySelector(".heart");
 function changeColor() {
   heart.style.color = "red"
   console.log(heart);
