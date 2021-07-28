@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 /* linear gradients */
 /* https://aeroxer.net/color/multi-gradient-palette */
-/* border linear gradient */
-/* https://www.digitalocean.com/community/tutorials/css-gradient-borders-pure-css */
+
+/* png */
+/* https://www.pngarts.com/ */
 
 *{
     margin:0;
@@ -57,7 +60,6 @@ body::after{
 }
 
 
-
 h2{
     text-align: center;
     font-weight: 900;
@@ -65,22 +67,23 @@ h2{
     color:rgba(255,255,255,0.8);
     margin-top:-1rem;
 }
-span{
+.price, .jacket-price{
     font-size: 3rem;
     font-weight:600;
     color:rgba(255,255,255,0.5)
 
 }
-p{
+
+.price{
+    margin:0.5rem 0
+}
+
+.info{
     font-size: 1.1rem;
     line-height: 2.2rem;
     font-weight: 900;
     color:rgba(255,255,255,0.6);
 }
-.price{
-    margin:0.5rem 0
-}
-
 
 
 button{
@@ -104,15 +107,15 @@ button{
     text-align: right;
     margin-top:0.5rem;   
     opacity: 0;
+    font-size: 3rem;
+    font-weight:600;
 }
-
-
 
 img{
     width:10rem; 
     margin-top: 1rem;
 }
-
+/* unique properties product card jacket start */
 .shopping{
     margin-left:auto;
     margin-right:0.5rem;
@@ -143,48 +146,73 @@ img{
 .jacket-price{
     margin-top: -2.6rem;
 }
+/* unique properties product card jacket end */
 
+/* credit cards wrapper start*/
 .creditcards{
     display: flex;
     flex-direction: column;
 }
-
-.chip{
-    transform: rotate(-270deg);
-    width:3.0rem;
-    margin-left:-15rem;
-
+.content{
+    width:80%;
 }
-.visa{
-    width:6rem;
-}
+
 
 .short{
     height:15rem;
     margin: 8rem 0;
-
 }
+/* credit cards wrapper end*/
+
 
 /* credit card front start */
-.front-head, .front-footer{
+
+.chip{
+    transform: rotate(-270deg);
+    width:3.0rem;
+
+}
+.visa{
+    width:5rem;
+    display: block;
+    margin-left:auto;
+    margin-top:-1rem;
+}
+.holder{
+    margin-top:0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.front-head{
     display:flex;
-    width:80%;
     justify-content: space-between;
 }
 .front-head{
     margin:1.2rem 0 -0.7rem;
     color:rgba(255,255,255,1);
+    font-size:1.2rem;
 }
 .bank-name{
     font-style: italic;
     font-size: 1.4rem;
 }
+.font-fam{
+    font-family: 'Orbitron', sans-serif;
+}
 .card-nbr{
-    width:80%;
+    letter-spacing:0.2rem;
+    margin:0.5rem 0;
+}
+.date-valid{
+    font-size:0.7rem;   
+    text-transform: uppercase; 
+}
+.date{
+    margin-left:1rem;
 }
 
-
-
+/* credit card front end */
 
 /* credit card back start */
 .sign-field{
