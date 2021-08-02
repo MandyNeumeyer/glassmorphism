@@ -1,3 +1,11 @@
+## Glassmorphism Cards
+
+[Live Demo](https://mandyneumeyer.github.io/glassmorphism/)
+
+<img src="./assets/demo.gif" alt="demo" width="70%">
+
+
+
 **Background**
 ```css
 body::before and body::after 
