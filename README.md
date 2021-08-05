@@ -10,9 +10,8 @@
 
 ### Tablet
 
-<div align="center">
 <img src="./assets/tablet.png" alt="tablet" width="50%">
-</div>
+
 
 **Background**
 ```css
