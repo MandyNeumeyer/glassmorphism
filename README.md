@@ -2,13 +2,13 @@
 
 [Live Demo](https://mandyneumeyer.github.io/glassmorphism/)
 
-### Desktop
+**Desktop**
 
 <img src="./assets/demo.gif" alt="demo">
 
 ---
 
-### Tablet
+**Tablet**
 
 <img src="./assets/tablet.png" alt="tablet" width="50%">
 
