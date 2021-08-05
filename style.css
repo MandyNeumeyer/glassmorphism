@@ -292,3 +292,12 @@ img{
     }
 } 
 
+@media only screen and (max-width: 851px)and (min-width:650px){
+    body:before{
+        /* clip-path: circle(40% at right 70%); */
+        height:200%;
+    }
+    body:after{
+        clip-path: circle(50% at 10% 10%);
+    }
+}
